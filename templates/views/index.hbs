@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>weather</title>
+    <link rel="icon" href="/images/w2.png">
+    <link rel="stylesheet" href="./css/styles.css">
+     <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+
+<body>
+    {{!-- Render Partial --}}
+    <div class="main-content">
+        {{>header}}
+        <p>Use this site to get weather information in your area</p>
+    <form>
+        <input placeholder="Enter Location">
+        <button>Search</button>
+    </form>
+
+    <p class="h6" id="message-1"></p>
+    <p class="h6" id="message-2"></p>
+    </div>
+    
+    {{>footer}}
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
