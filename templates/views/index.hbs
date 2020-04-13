@@ -5,21 +5,23 @@
     <title>weather</title>
     <link rel="icon" href="/images/w2.png">
     <link rel="stylesheet" href="./css/styles.css">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 </head>
 
-<body>
+<body >
     {{!-- Render Partial --}}
     <div class="main-content">
         {{>header}}
-        <p>Use this site to get weather information in your area</p>
+        <h3 style="color:#E99157;">Use this site to get weather information in your area</h3>
     <form>
-        <input placeholder="Enter Location">
-        <button>Search</button>
+        <div class="input-group">
+        <input placeholder="Enter Location"   id="inputGroup-sizing-default" class="form-control">
+        <button class="btn btn-default btn-primary">Search</button>
+        </div>
     </form>
 
-    <p class="h6" id="message-1"></p>
+    <p class="h6 text-info"   id="message-1"></p>
     <p class="h6" id="message-2"></p>
     </div>
     

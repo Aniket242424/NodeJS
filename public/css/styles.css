@@ -5,6 +5,7 @@ body{
     margin: 0 auto;
     padding: 0 16px;
     display: flex;
+    
     flex-direction: column;
     min-height: 100vh
 }
@@ -16,8 +17,9 @@ body{
 footer{
     color: #888888;
     border-top: 1px solid #eeeeee;
-    padding: 16px 0;
-    margin: 16px;
+    background-color: #EEE;
+    /* padding: 16px 0;
+    margin: 16px; */
 }
 
 header{
@@ -65,4 +67,57 @@ td{
 p{
     padding: 8px;
     margin-top: 8px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+.aboutTable{
+background-color: #F9E79F;
+  }
+
+  .links a {
+    font-size: 1.2em;
+    display: block;
+    padding: 1em;
+    padding-left: 30px;
+    transition: all 150ms;
+}
+.links a {
+    border-radius: 3px;
+}
+
+a {
+    color: #1b78d0;
+    text-decoration: none;
+}
+
+button, a {
+    cursor: pointer;
+}
+
+h2 {
+    font-size: calc(16px + 14 * ((100vw - 320px) / 880));
 }
