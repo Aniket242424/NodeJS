@@ -10,6 +10,6 @@ To run the application. please follow below steps:
 
 2.Run command: npm install
 
-3.Run src/app.js
+3.Run nodemon src/app.js
 
 4.Open browser and type http://localhost:3000
